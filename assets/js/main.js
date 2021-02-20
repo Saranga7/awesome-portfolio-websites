@@ -31,10 +31,10 @@ if(mybutton) {
 
 //Footer and Navbar
 
-let header = $(`
+let header = $(
 <nav class="fixed-top black">
 <div class="nav-wrapper">
-    <a href="#!" class="brand-logo"><img src="assets/images/John-Doe1.png"></a>
+    <a href="#!" class="brand-logo"><img src="assets/images/logo.png"></a>
     <a href="#" data-target="mobile-demo" class="white-text sidenav-trigger"><i
             class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down">
@@ -90,22 +90,22 @@ let header = $(`
           </div>
           </label>
         </li>
-</ul>`);
+</ul>);
 
-let footer = $(`
+let footer = $(
 <footer class="webintern-footer">
     <div class="footer-left">
       <div class="footer-text">
-        <p>"Develop a passion for learning. If you do, you will never cease to grow."</p>
+        <p>"To infinity and beyond!"</p>
       </div>
       <div class="footer-icons">
-      <a href="#" class="linkedin sub-footer-icon">
+      <a href="https://www.linkedin.com/in/saranga-mahanta7/" class="linkedin sub-footer-icon">
           <i class="fab fa-linkedin"></i>
         </a>
-        <a href="#" class="git sub-footer-icon">
+        <a href="https://github.com/Saranga7" class="git sub-footer-icon">
           <i class="fab fa-github"></i>
         </a>
-        <a href="#" class="twitter sub-footer-icon">
+        <a href="https://twitter.com/mahanta_saranga" class="twitter sub-footer-icon">
           <i class="fab fa-twitter"></i>
         </a>
         <a href="#" class="email-icon sub-footer-icon" >
@@ -153,7 +153,7 @@ let footer = $(`
       </div>
     </div> -->
     
-    </footer>`);
+    </footer>);
 let bodyElement = $(`body`);
 bodyElement.prepend(header);
 bodyElement.append(footer);
