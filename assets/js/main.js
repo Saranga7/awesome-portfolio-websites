@@ -31,7 +31,7 @@ if(mybutton) {
 
 //Footer and Navbar
 
-let header = $(
+let header = $(`
 <nav class="fixed-top black">
 <div class="nav-wrapper">
     <a href="#!" class="brand-logo"><img src="assets/images/logo.png"></a>
@@ -90,9 +90,9 @@ let header = $(
           </div>
           </label>
         </li>
-</ul>);
+</ul>`);
 
-let footer = $(
+let footer = $(`
 <footer class="webintern-footer">
     <div class="footer-left">
       <div class="footer-text">
@@ -153,7 +153,7 @@ let footer = $(
       </div>
     </div> -->
     
-    </footer>);
+    </footer>`);
 let bodyElement = $(`body`);
 bodyElement.prepend(header);
 bodyElement.append(footer);
